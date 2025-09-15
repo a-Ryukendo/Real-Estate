@@ -27,6 +27,12 @@ Here are some of the key visualizations and the insights derived from them:
 
 *   **Insight**: Histograms reveal the distribution of numerical attributes. `median_income`, `housing_median_age`, and `median_house_value` show signs of capping. Most distributions are skewed, suggesting the need for potential transformations during preprocessing.
 
+### Income Category Bar Plot
+
+![Bar Plot](img/Bar Plot.png)
+
+*   **Insight**: This bar plot displays the distribution of median income categories, which were created for stratified sampling. It helps ensure that the test set is representative of the income distribution in the overall dataset, preventing sampling bias.
+
 ### Geographic Scatter Plot with Population and House Value
 
 ![Scatter Plot](img/Scatter Plot.png)
@@ -37,7 +43,7 @@ Here are some of the key visualizations and the insights derived from them:
 
 ![Scatter Matrix](img/Scatter Matrix.png)
 
-*   **Insight**: The scatter matrix displays relationships between `median_house_value`, `median_income`, `total_rooms`, and `housing_median_age`. A strong positive correlation is observed between `median_income` and `median_house_value`.
+*   **Insight**: The scatter matrix displays relationships between `median_house_value`, `median_income`, `total_rooms`, and `housing_median_age`. A strong positive correlation is observed between `median_income` and `median_house_value`. This visualization also shows the distribution of each variable.
 
 ### Box Plot of Median House Value by Ocean Proximity
 
